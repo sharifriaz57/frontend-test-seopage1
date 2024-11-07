@@ -1,0 +1,37 @@
+.task-card {
+  height: calc(100vh - 3rem);
+  background-color: #f2f4f7;
+  flex: 0 0 330px;
+}
+.task-card-header {
+  padding: 1rem 0.75rem 1rem 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #666;
+}
+.indicator {
+  width: 1.25rem;
+  height: 1.5rem;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  margin-right: 0.5rem;
+}
+.task-card-header-left {
+  display: flex;
+  align-items: center;
+  flex: 1 1 auto;
+}
+.task-title {
+  font-weight: 600;
+}
+.task-count {
+  padding: 0.25rem 0.35rem;
+  background-color: #e8eef3;
+  font-weight: 600;
+}
+
+.task-card-body {
+  height: calc(100% - 57px);
+  overflow: hidden auto;
+}
